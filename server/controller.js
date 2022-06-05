@@ -254,6 +254,7 @@ module.exports = {
         from cities
         join countries
         on cities.country_id = countries.country_id
+        order by rating desc
         `)
         .then(dbRes => res.status(200).send(dbRes[0]))
         .catch(err => console.log(err))

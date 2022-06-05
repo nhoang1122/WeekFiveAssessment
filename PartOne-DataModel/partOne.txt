@@ -1,0 +1,10 @@
+RELATIONSHIPS
+
+//ONE TO ONE//
+Adopter To Pet-Adopted | Each Adopter gets One Pet and each Pet can have One Adopter. 
+
+//ONE TO MANY//
+Pet Type to Pet Breed | One Pet Type can have many Breeds but One Pet Breed can have only Pet Type.
+
+//MANY TO MANY//
+Adopter to Pet-Type | Each Adopter can adopt many Pet Types, and different Pet-Types can have many/different Adopters
